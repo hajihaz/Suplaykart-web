@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
+  manifest: "/manifest.webmanifest",
+  appleWebApp: { capable: true, title: "Suplaykart", statusBarStyle: "default" },
+  icons: { icon: "/pwa/icon-192.png", apple: "/pwa/apple-touch-icon.png" },
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
